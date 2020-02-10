@@ -18,6 +18,14 @@ let map = new mapboxgl.Map({
         },
         'layers':[
             {
+                'id':'osm',
+                'type':'raster',
+                'source':'osm',
+                'paint':{
+                    'raster-opacity':0.4
+                }
+            },
+            {
                 'id':'road',
                 'type':'line',
                 'source':'gsi-bvmap',
