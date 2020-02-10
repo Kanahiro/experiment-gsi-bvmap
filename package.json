@@ -1,0 +1,20 @@
+{
+  "name": "gsi-vtile-test",
+  "version": "1.0.0",
+  "description": "experimental web site showing GSI vector tile",
+  "main": "./dist/app.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kanahiro Iguchi",
+  "license": "MIT",
+  "dependencies": {
+    "mapbox-gl": "^1.7.0",
+    "webpack": "^4.41.5",
+    "yarn": "^1.22.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
