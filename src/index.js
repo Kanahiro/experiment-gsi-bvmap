@@ -1,5 +1,4 @@
 let mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
-mapboxgl.accessToken = 'pk.eyJ1Ijoia2FuYWhpcm8iLCJhIjoiY2s2NG96bzE5MHoxdzNrbW04NHB3ZHdxYyJ9.Vm6lPukISVr9c9pIUstsiQ'
 
 let map = new mapboxgl.Map({
     'container':'mapPane',
