@@ -31,7 +31,8 @@ let map = new mapboxgl.Map({
                 'source':'gsi-bvmap',
                 'source-layer':'road',
                 'paint':{
-                    'line-color':'#000000'
+                    'line-color':'#990000',
+                    'line-width':3
                 }
             }
         ]
