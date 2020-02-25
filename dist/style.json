@@ -43,8 +43,7 @@
             "paint": {
                 "line-color": "#7d8b8f",
                 "line-width": 1,
-                "line-opacity": 1.0,
-                "line-cap": "square"
+                "line-opacity": 1.0
             }
         },
         {
@@ -66,8 +65,7 @@
             "paint": {
                 "line-color": "#a47158",
                 "line-width": 1,
-                "line-opacity": 1.0,
-                "line-cap": "square"
+                "line-opacity": 1.0
             }
         },
         {
@@ -100,8 +98,7 @@
             "paint": {
                 "line-color": "#f3a6b2",
                 "line-width": 1,
-                "line-opacity": 1.0,
-                "line-cap": "square"
+                "line-opacity": 1.0
             }
         },
         {
@@ -112,8 +109,7 @@
             "paint": {
                 "line-color": "#e8718d",
                 "line-width": 1,
-                "line-opacity": 1.0,
-                "line-cap": "square"
+                "line-opacity": 1.0
             }
         },
         {
@@ -124,8 +120,7 @@
             "paint": {
                 "line-color": "#ff9e17",
                 "line-width": 1,
-                "line-opacity": 1.0,
-                "line-cap": "square"
+                "line-opacity": 1.0
             }
         },
         {
@@ -158,8 +153,7 @@
             "paint": {
                 "line-color": "#987db7",
                 "line-width": 1,
-                "line-opacity": 1.0,
-                "line-cap": "square"
+                "line-opacity": 1.0
             }
         },
         {
@@ -174,8 +168,7 @@
                 "line-dasharray": [
                     1,
                     1
-                ],
-                "line-cap": "square"
+                ]
             }
         },
         {
@@ -186,8 +179,7 @@
             "paint": {
                 "line-color": "#8d5a99",
                 "line-width": 1,
-                "line-opacity": 1.0,
-                "line-cap": "square"
+                "line-opacity": 1.0
             }
         }
     ]
