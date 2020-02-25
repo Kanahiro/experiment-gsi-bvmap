@@ -10,9 +10,125 @@
     },
     "layers": [
         {
-            "id": "transp_b723ddbe_deae_4bcc_9b43_2de4df635c6c",
+            "id": "transp_3130b276_7a52_460c_ad41_a781106d306c",
             "source": "mvt",
             "source-layer": "transp",
+            "type": "circle",
+            "paint": {
+                "circle-color": "#91522d",
+                "circle-radius": 3,
+                "circle-opacity": 1.0,
+                "circle-stroke-color": "#232323",
+                "circle-stroke-width": 1
+            }
+        },
+        {
+            "id": "lake_f87bd3da_ad27_44e8_9843_d9b0efb3f85a",
+            "source": "mvt",
+            "source-layer": "lake",
+            "type": "line",
+            "paint": {
+                "line-color": "#7d8b8f",
+                "line-width": 1,
+                "line-opacity": 1.0
+            }
+        },
+        {
+            "id": "landforma_46d940ce_b593_40b1_a961_891b0ee3649c",
+            "source": "mvt",
+            "source-layer": "landforma",
+            "type": "fill",
+            "paint": {
+                "fill-color": "#85b66f",
+                "fill-outline-color": "#232323",
+                "fill-opacity": 1.0
+            }
+        },
+        {
+            "id": "contour_8541b6da_5002_4513_990f_95758a45dae8",
+            "source": "mvt",
+            "source-layer": "contour",
+            "type": "line",
+            "paint": {
+                "line-color": "#a47158",
+                "line-width": 1,
+                "line-opacity": 1.0
+            }
+        },
+        {
+            "id": "waterarea_a7812359_3ef2_4917_87df_97b8b315bb6f",
+            "source": "mvt",
+            "source-layer": "waterarea",
+            "type": "fill",
+            "paint": {
+                "fill-color": "#d5b43c",
+                "fill-outline-color": "#232323",
+                "fill-opacity": 1.0
+            }
+        },
+        {
+            "id": "symbol_21d587cd_b069_4ed3_8bff_310e5e094613",
+            "source": "mvt",
+            "source-layer": "symbol",
+            "type": "circle",
+            "paint": {
+                "circle-color": "#729b6f",
+                "circle-radius": 3,
+                "circle-opacity": 1.0,
+                "circle-stroke-color": "#232323",
+                "circle-stroke-width": 1
+            }
+        },
+        {
+            "id": "searoute_83536971_c2b9_4b37_a413_d3850f5fbc62",
+            "source": "mvt",
+            "source-layer": "searoute",
+            "type": "line",
+            "paint": {
+                "line-color": "#f3a6b2",
+                "line-width": 1,
+                "line-opacity": 1.0
+            }
+        },
+        {
+            "id": "river_23a33716_80c5_477c_a979_f6f435441117",
+            "source": "mvt",
+            "source-layer": "river",
+            "type": "line",
+            "paint": {
+                "line-color": "#e8718d",
+                "line-width": 1,
+                "line-opacity": 1.0
+            }
+        },
+        {
+            "id": "railway_acd85f06_310c_498d_85a2_8d29e83c9fb1",
+            "source": "mvt",
+            "source-layer": "railway",
+            "type": "line",
+            "paint": {
+                "line-color": "#ff9e17",
+                "line-width": 1,
+                "line-opacity": 1.0
+            }
+        },
+        {
+            "id": "label_7aa8eeb2_514d_4e82_8de9_ccd30fb931ed",
+            "source": "mvt",
+            "source-layer": "label",
+            "type": "circle",
+            "paint": {
+                "circle-color": "#b7484b",
+                "circle-radius": 3,
+                "circle-opacity": 1.0,
+                "circle-stroke-color": "#232323",
+                "circle-stroke-width": 1
+            }
+        },
+        {
+            "id": "elevation_48ed7b97_df48_492b_abae_0304bab44545",
+            "source": "mvt",
+            "source-layer": "elevation",
             "type": "circle",
             "paint": {
                 "circle-color": "#e77148",
@@ -23,112 +139,18 @@
             }
         },
         {
-            "id": "lake_b78dfdba_42f5_4337_b178_99b7a026f756",
-            "source": "mvt",
-            "source-layer": "lake",
-            "type": "line",
-            "paint": {
-                "line-color": "#2301ff",
-                "line-width": 1,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "river_c9aac09d_6642_4d1c_ae2c_a96291e67776",
-            "source": "mvt",
-            "source-layer": "river",
-            "type": "line",
-            "paint": {
-                "line-color": "#01ffd9",
-                "line-width": 1,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "label_a7375555_5566_4e26_8b30_4e60da337b7a",
-            "source": "mvt",
-            "source-layer": "label",
-            "type": "circle",
-            "paint": {
-                "circle-color": "#e15989",
-                "circle-radius": 3,
-                "circle-opacity": 1.0,
-                "circle-stroke-color": "#232323",
-                "circle-stroke-width": 1
-            }
-        },
-        {
-            "id": "elevation_dcc0cec9_aee8_4abc_8915_ff832c1fd492",
-            "source": "mvt",
-            "source-layer": "elevation",
-            "type": "circle",
-            "paint": {
-                "circle-color": "#e5b636",
-                "circle-radius": 3,
-                "circle-opacity": 1.0,
-                "circle-stroke-color": "#232323",
-                "circle-stroke-width": 1
-            }
-        },
-        {
-            "id": "searoute_e3938989_005c_4c1e_886d_9bbbc99217a6",
-            "source": "mvt",
-            "source-layer": "searoute",
-            "type": "line",
-            "paint": {
-                "line-color": "#0156ff",
-                "line-width": 1,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "railway_4e5a79ce_18f5_4656_8846_2c372a1b5710",
-            "source": "mvt",
-            "source-layer": "railway",
-            "type": "line",
-            "paint": {
-                "line-color": "#ffea01",
-                "line-width": 2,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "waterarea_be7f43d5_ff26_4bd3_8ac6_62457fcf325c",
-            "source": "mvt",
-            "source-layer": "waterarea",
-            "type": "fill",
-            "paint": {
-                "fill-color": "#79f2ff",
-                "fill-outline-color": "#232323",
-                "fill-opacity": 1.0
-            }
-        },
-        {
-            "id": "symbol_247a74ce_556a_4753_9fbe_4419a430a66a",
-            "source": "mvt",
-            "source-layer": "symbol",
-            "type": "circle",
-            "paint": {
-                "circle-color": "#85b66f",
-                "circle-radius": 3,
-                "circle-opacity": 1.0,
-                "circle-stroke-color": "#232323",
-                "circle-stroke-width": 1
-            }
-        },
-        {
-            "id": "coastline_81848381_f949_4a94_8173_f394a1555137",
+            "id": "coastline_e90e063a_c33d_4d81_9057_2bc1c8e4668a",
             "source": "mvt",
             "source-layer": "coastline",
             "type": "line",
             "paint": {
-                "line-color": "#0134ff",
-                "line-width": 2,
+                "line-color": "#987db7",
+                "line-width": 1,
                 "line-opacity": 1.0
             }
         },
         {
-            "id": "boundary_60ad6e3c_d98f_4ac1_93dd_bb035db8ef4a",
+            "id": "boundary_63cf10a9_858a_40bc_bb8c_6275b16325bf",
             "source": "mvt",
             "source-layer": "boundary",
             "type": "line",
@@ -136,17 +158,20 @@
                 "line-color": "#000000",
                 "line-width": 2,
                 "line-opacity": 1.0,
-                "line-dasharray":[4,1]
+                "line-dasharray": [
+                    1,
+                    1
+                ]
             }
         },
         {
-            "id": "road_24fb067e_1de3_4f47_be90_f0b831738b67",
+            "id": "road_03bfb3c0_a0db_4260_99e5_ed8e42506ca4",
             "source": "mvt",
             "source-layer": "road",
             "type": "line",
             "paint": {
-                "line-color": "#ff4001",
-                "line-width": 3,
+                "line-color": "#8d5a99",
+                "line-width": 1,
                 "line-opacity": 1.0
             }
         }
