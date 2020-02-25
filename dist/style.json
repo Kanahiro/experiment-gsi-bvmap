@@ -136,7 +136,7 @@
                 "line-color": "#000000",
                 "line-width": 2,
                 "line-opacity": 1.0,
-                "line-dasharray":[2]
+                "line-dasharray":[4]
             }
         },
         {
