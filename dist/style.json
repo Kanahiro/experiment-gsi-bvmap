@@ -1,6 +1,13 @@
 {
     "version": 8,
     "sources": {
+        "OpenStreetMap_61d2870b_0919_44f7_b62d_a0f0b971dc3d": {
+            "type": "raster",
+            "tiles": [
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+            ],
+            "tileSize": 256
+        },
         "mvt": {
             "type": "vector",
             "tiles": [
@@ -10,6 +17,14 @@
     },
     "layers": [
         {
+            "id": "OpenStreetMap_61d2870b_0919_44f7_b62d_a0f0b971dc3d",
+            "source": "OpenStreetMap_61d2870b_0919_44f7_b62d_a0f0b971dc3d",
+            "type": "raster",
+            "paint": {
+                "raster-opacity": 1.0
+            }
+        },
+        {
             "id": "transp_3130b276_7a52_460c_ad41_a781106d306c",
             "source": "mvt",
             "source-layer": "transp",
@@ -17,9 +32,7 @@
             "paint": {
                 "circle-color": "#91522d",
                 "circle-radius": 3,
-                "circle-opacity": 1.0,
-                "circle-stroke-color": "#232323",
-                "circle-stroke-width": 1
+                "circle-opacity": 1.0
             }
         },
         {
@@ -30,7 +43,8 @@
             "paint": {
                 "line-color": "#7d8b8f",
                 "line-width": 1,
-                "line-opacity": 1.0
+                "line-opacity": 1.0,
+                "line-cap": "square"
             }
         },
         {
@@ -52,7 +66,8 @@
             "paint": {
                 "line-color": "#a47158",
                 "line-width": 1,
-                "line-opacity": 1.0
+                "line-opacity": 1.0,
+                "line-cap": "square"
             }
         },
         {
@@ -74,9 +89,7 @@
             "paint": {
                 "circle-color": "#729b6f",
                 "circle-radius": 3,
-                "circle-opacity": 1.0,
-                "circle-stroke-color": "#232323",
-                "circle-stroke-width": 1
+                "circle-opacity": 1.0
             }
         },
         {
@@ -87,7 +100,8 @@
             "paint": {
                 "line-color": "#f3a6b2",
                 "line-width": 1,
-                "line-opacity": 1.0
+                "line-opacity": 1.0,
+                "line-cap": "square"
             }
         },
         {
@@ -98,7 +112,8 @@
             "paint": {
                 "line-color": "#e8718d",
                 "line-width": 1,
-                "line-opacity": 1.0
+                "line-opacity": 1.0,
+                "line-cap": "square"
             }
         },
         {
@@ -109,7 +124,8 @@
             "paint": {
                 "line-color": "#ff9e17",
                 "line-width": 1,
-                "line-opacity": 1.0
+                "line-opacity": 1.0,
+                "line-cap": "square"
             }
         },
         {
@@ -120,9 +136,7 @@
             "paint": {
                 "circle-color": "#b7484b",
                 "circle-radius": 3,
-                "circle-opacity": 1.0,
-                "circle-stroke-color": "#232323",
-                "circle-stroke-width": 1
+                "circle-opacity": 1.0
             }
         },
         {
@@ -133,9 +147,7 @@
             "paint": {
                 "circle-color": "#e77148",
                 "circle-radius": 3,
-                "circle-opacity": 1.0,
-                "circle-stroke-color": "#232323",
-                "circle-stroke-width": 1
+                "circle-opacity": 1.0
             }
         },
         {
@@ -146,7 +158,8 @@
             "paint": {
                 "line-color": "#987db7",
                 "line-width": 1,
-                "line-opacity": 1.0
+                "line-opacity": 1.0,
+                "line-cap": "square"
             }
         },
         {
@@ -161,7 +174,8 @@
                 "line-dasharray": [
                     1,
                     1
-                ]
+                ],
+                "line-cap": "square"
             }
         },
         {
@@ -172,7 +186,8 @@
             "paint": {
                 "line-color": "#8d5a99",
                 "line-width": 1,
-                "line-opacity": 1.0
+                "line-opacity": 1.0,
+                "line-cap": "square"
             }
         }
     ]
