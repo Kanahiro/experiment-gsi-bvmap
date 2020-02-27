@@ -4,7 +4,7 @@
         "MT_MIERUNE_2cea2ddd_667a_4206_bdd4_cb2bdacd3b3d": {
             "type": "raster",
             "tiles": [
-                "https://api.maptiler.com/maps/jp-mierune-streets/{z}/{x}/{y}.png?key%3DqkkUVjxX8misUtW5bt6Z"
+                "https://api.maptiler.com/maps/jp-mierune-streets/{z}/{x}/{y}.png?key=qkkUVjxX8misUtW5bt6Z"
             ],
             "tileSize": 256
         },
