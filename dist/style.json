@@ -1,10 +1,10 @@
 {
     "version": 8,
     "sources": {
-        "MT_MIERUNE_2cea2ddd_667a_4206_bdd4_cb2bdacd3b3d": {
+        "OpenStreetMap_c38941de_bda3_4fe8_9912_13cc450384eb": {
             "type": "raster",
             "tiles": [
-                "https://api.maptiler.com/maps/jp-mierune-streets/{z}/{x}/{y}.png?key=qkkUVjxX8misUtW5bt6Z"
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
             ],
             "tileSize": 256
         },
@@ -17,175 +17,76 @@
     },
     "layers": [
         {
-            "id": "MT_MIERUNE_2cea2ddd_667a_4206_bdd4_cb2bdacd3b3d",
-            "source": "MT_MIERUNE_2cea2ddd_667a_4206_bdd4_cb2bdacd3b3d",
+            "id": "OpenStreetMap_c38941de_bda3_4fe8_9912_13cc450384eb",
+            "source": "OpenStreetMap_c38941de_bda3_4fe8_9912_13cc450384eb",
             "type": "raster",
             "paint": {
-                "raster-opacity": 1.0
+                "raster-opacity": 0.5
             }
         },
         {
-            "id": "transp_a2828c59_ccde_417c_9e6f_b965cac97cb5",
-            "source": "mvt",
-            "source-layer": "transp",
-            "type": "circle",
-            "paint": {
-                "circle-color": "#e8718d",
-                "circle-radius": 3,
-                "circle-opacity": 1.0
-            }
-        },
-        {
-            "id": "symbol_12cbee40_5897_44de_858f_1b9a6407cd70",
-            "source": "mvt",
-            "source-layer": "symbol",
-            "type": "circle",
-            "paint": {
-                "circle-color": "#ff9e17",
-                "circle-radius": 3,
-                "circle-opacity": 1.0
-            }
-        },
-        {
-            "id": "lake_750ee277_5aaa_4492_9a67_81c7f8572578",
-            "source": "mvt",
-            "source-layer": "lake",
-            "type": "line",
-            "paint": {
-                "line-color": "#b7484b",
-                "line-width": 1,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "elevation_79a397e5_5f7e_4f68_894f_a6f0cfad53de",
-            "source": "mvt",
-            "source-layer": "elevation",
-            "type": "circle",
-            "paint": {
-                "circle-color": "#e77148",
-                "circle-radius": 3,
-                "circle-opacity": 1.0
-            }
-        },
-        {
-            "id": "boundary_c622263c_cacb_4f25_bd23_b9df0d663ae6",
-            "source": "mvt",
-            "source-layer": "boundary",
-            "type": "line",
-            "paint": {
-                "line-color": "#987db7",
-                "line-width": 1,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "waterarea_25cbeda0_d064_45c8_9266_64e887943492",
+            "id": "waterarea_b809a981_3dac_414c_8a51_4f0fb6cfe0a2",
             "source": "mvt",
             "source-layer": "waterarea",
             "type": "fill",
             "paint": {
-                "fill-color": "#ff0112",
+                "fill-color": "#5beaff",
                 "fill-outline-color": "#232323",
                 "fill-opacity": 1.0
             }
         },
         {
-            "id": "searoute_f53d55a9_bfb1_482d_a8c6_09200d4a691e",
-            "source": "mvt",
-            "source-layer": "searoute",
-            "type": "line",
-            "paint": {
-                "line-color": "#e15989",
-                "line-width": 1,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "river_8f957bb2_47cf_4efc_af2a_fc9f0b2c6c7e",
+            "id": "river_1914b51a_696b_44a7_9e3b_0507f7b4c5f7",
             "source": "mvt",
             "source-layer": "river",
             "type": "line",
             "paint": {
-                "line-color": "#c43c39",
+                "line-color": "#01a6ff",
                 "line-width": 1,
                 "line-opacity": 1.0
             }
         },
         {
-            "id": "railway_2d6ece5f_0800_41f6_b68b_71a2e7cce95d",
+            "id": "railway_e4065586_ec36_4a2f_bb01_6f44a4bd6d33",
             "source": "mvt",
             "source-layer": "railway",
             "type": "line",
             "paint": {
-                "line-color": "#beb297",
-                "line-width": 1,
+                "line-color": "#4c4c4c",
+                "line-width": 4,
                 "line-opacity": 1.0
             }
         },
         {
-            "id": "landforma_47c01cfb_e782_4aa7_891d_0a9a15046750",
+            "id": "railway_84055471_f6b9_4046_a3bc_7e2557ed14f8",
             "source": "mvt",
-            "source-layer": "landforma",
-            "type": "fill",
-            "paint": {
-                "fill-color": "#91522d",
-                "fill-outline-color": "#232323",
-                "fill-opacity": 1.0
-            }
-        },
-        {
-            "id": "label_47892db4_5f70_4f4c_944e_ad3218bf5ba4",
-            "source": "mvt",
-            "source-layer": "label",
-            "type": "circle",
-            "paint": {
-                "circle-color": "#7d8b8f",
-                "circle-radius": 3,
-                "circle-opacity": 1.0
-            }
-        },
-        {
-            "id": "coastline_4b26c77e_179a_4045_836d_2bf0f9819853",
-            "source": "mvt",
-            "source-layer": "coastline",
+            "source-layer": "railway",
             "type": "line",
             "paint": {
-                "line-color": "#85b66f",
-                "line-width": 1,
+                "line-color": "#dcdcdc",
+                "line-width": 2,
                 "line-opacity": 1.0
             }
         },
         {
-            "id": "contour_7c432b17_a6e0_4e37_9c2c_d89a76e0872b",
-            "source": "mvt",
-            "source-layer": "contour",
-            "type": "line",
-            "paint": {
-                "line-color": "#a47158",
-                "line-width": 1,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "road_1f9f3221_8486_461a_a955_aa0a8ac8b8e2",
+            "id": "road_4dce26af_010a_413a_bcba_f76855562d4a",
             "source": "mvt",
             "source-layer": "road",
             "type": "line",
             "paint": {
                 "line-color": "#ffffff",
-                "line-width": 12,
+                "line-width": 5,
                 "line-opacity": 1.0
             }
         },
         {
-            "id": "road_51727b6e_2ca6_4903_8d41_79c619bfb459",
+            "id": "road_3af6f38d_6cc8_4372_8615_c46ce89c4abd",
             "source": "mvt",
             "source-layer": "road",
             "type": "line",
             "paint": {
-                "line-color": "#0116ff",
-                "line-width": 6,
+                "line-color": "#ff8001",
+                "line-width": 3,
                 "line-opacity": 1.0
             }
         }
