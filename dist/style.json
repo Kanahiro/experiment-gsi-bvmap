@@ -1,7 +1,7 @@
 {
     "version": 8,
     "sources": {
-        "OpenStreetMap_c38941de_bda3_4fe8_9912_13cc450384eb": {
+        "OpenStreetMap_6884f3a8_964d_4e52_824a_1a6ede5ee8d3": {
             "type": "raster",
             "tiles": [
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -17,76 +17,21 @@
     },
     "layers": [
         {
-            "id": "OpenStreetMap_c38941de_bda3_4fe8_9912_13cc450384eb",
-            "source": "OpenStreetMap_c38941de_bda3_4fe8_9912_13cc450384eb",
+            "id": "OpenStreetMap_6884f3a8_964d_4e52_824a_1a6ede5ee8d3",
+            "source": "OpenStreetMap_6884f3a8_964d_4e52_824a_1a6ede5ee8d3",
             "type": "raster",
             "paint": {
-                "raster-opacity": 0.5
+                "raster-opacity": 1.0
             }
         },
         {
-            "id": "waterarea_b809a981_3dac_414c_8a51_4f0fb6cfe0a2",
+            "id": "road_809cdc49_b9fe_4cd4_94ec_61057369c700",
             "source": "mvt",
-            "source-layer": "waterarea",
-            "type": "fill",
-            "paint": {
-                "fill-color": "#5beaff",
-                "fill-outline-color": "#232323",
-                "fill-opacity": 1.0
-            }
-        },
-        {
-            "id": "river_1914b51a_696b_44a7_9e3b_0507f7b4c5f7",
-            "source": "mvt",
-            "source-layer": "river",
+            "source-layer": "road",
             "type": "line",
             "paint": {
-                "line-color": "#01a6ff",
-                "line-width": 1,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "railway_e4065586_ec36_4a2f_bb01_6f44a4bd6d33",
-            "source": "mvt",
-            "source-layer": "railway",
-            "type": "line",
-            "paint": {
-                "line-color": "#4c4c4c",
+                "line-color": "#ff1201",
                 "line-width": 4,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "railway_84055471_f6b9_4046_a3bc_7e2557ed14f8",
-            "source": "mvt",
-            "source-layer": "railway",
-            "type": "line",
-            "paint": {
-                "line-color": "#dcdcdc",
-                "line-width": 2,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "road_4dce26af_010a_413a_bcba_f76855562d4a",
-            "source": "mvt",
-            "source-layer": "road",
-            "type": "line",
-            "paint": {
-                "line-color": "#ffffff",
-                "line-width": 5,
-                "line-opacity": 1.0
-            }
-        },
-        {
-            "id": "road_3af6f38d_6cc8_4372_8615_c46ce89c4abd",
-            "source": "mvt",
-            "source-layer": "road",
-            "type": "line",
-            "paint": {
-                "line-color": "#ff8001",
-                "line-width": 3,
                 "line-opacity": 1.0
             }
         }
