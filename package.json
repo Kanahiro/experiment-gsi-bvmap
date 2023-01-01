@@ -11,10 +11,10 @@
   "license": "MIT",
   "dependencies": {
     "mapbox-gl": "^1.7.0",
-    "webpack": "^4.41.5",
+    "webpack": "^5.75.0",
     "yarn": "^1.22.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^5.0.1"
   }
 }
